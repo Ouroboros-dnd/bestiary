@@ -3,7 +3,7 @@
 	<info>
 		<name>Template</name>
 		<update version="0.0.1">
-			<file name="template.xml" url="https://raw.githubusercontent.com/Ouroboros-dnd/bestiary/master/template.xml" />
+			<file name="template.xml" url="https://raw.githubusercontent.com/Ouroboros-dnd/bestiary/master/bestiary/template.xml" />
 		</update>
 	</info>
 
