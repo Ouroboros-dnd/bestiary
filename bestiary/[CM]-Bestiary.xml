@@ -1,0 +1,1164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>[CM] Bestiary</name>
+		<update version="0.0.1">
+			<file name="template.xml" url="https://raw.githubusercontent.com/Ouroboros-dnd/bestiary/master/bestiary/[CM]-Bestiary" />
+		</update>
+	</info>
+
+	<!-- candlekeep creatures -->
+	<element name="Master Sage" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_STATBLOCK_MASTER_SAGE">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Master Sage</h3>
+			<p style="margin-bottom:-5px"><em>Medium humanoid (any race), (any alignment)</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 10 (13 with mage armor)</li>
+				<li><strong>Hit Points</strong> 54 (12d8)</li>
+				<li><strong>Speed</strong> 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>8 (-1)</td><td>10 (+0)</td><td>10 (+0)</td><td>20 (+5)</td><td>18 (+4)</td><td>11 (+0)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Arcana +11, History +11, Insight +7, Investigation +11, Medicine +10, Nature +11, Religion +11</li>
+				<li><strong>Senses</strong> passive Perception 14</li>
+				<li><strong>Languages</strong> Common plus any five languages</li>
+				<li><strong>Challenge</strong> 5</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Shoocking Grasp (Cantrip). </em></strong><em>Melee Spell Attack:</em> +8 to hit, reach 5 ft., one creature. <em>Hit:</em> 13 (3d8) lightning damage, and the target can't take reactions until the start of its next turn.</li>
+				<p></p>
+				<li><strong><em>Fireball (3rd-Level Spell; 3/Day). </em></strong>The sage creates a firey explosion centered on a point it can see within 150 feet of it. Each creature in a 20-foot-radius sphere centered on that point mist make a DC 14 Dexterity saving throw, taking 28 (8d6) fire damage on a failed save, or half as much on a successful one. The fire spreads around corners and ignites flammable objects in the area that aren't being worn or carried.</li>
+				<p></p>
+				<li><strong><em>Spellcasting. </em></strong>The sage casts one of the following spells, using Intelligence as the spellcasting ability (save DC 14, +6 to hit with spell attacks):</li>
+				<p></p>
+				<li>At will: <em>light, mage hand, mending, prestidigitation</em></li>
+				<li>3/day each: <em>comprehend languages, detect magic, dispel magic, identify, levitate, locate object, Tenser's floating disk, unseen servant</em></li>
+				<li>1/day each: <em>banishment, contact other plane, Drawmij's instant summons, legend lore, locate creature, planar binding, polymorph, protection from evil and good, scrying, sending, true seeing</em></li>
+			</ul>
+			<h4 style="margin-top:10px">Reactions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Shield (1st-Level Spell; 3/Day). </em></strong>When the sage is hit by an attack or tageted by a <em>magic missile</em> spell, it calls forth an invisible barrier of magical force that protect it. Until the start of its next turn, the sage has a +5 bonus to AC, including against the triggering attack, and it takes no damage from <em>magic missile</em>.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<element name="Sage" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_STATBLOCK_SAGE">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Sage</h3>
+			<p style="margin-bottom:-5px"><em>Medium humanoid (any race), (any alignment)</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 10 (13 with mage armor)</li>
+				<li><strong>Hit Points</strong> 22 (5d8)</li>
+				<li><strong>Speed</strong> 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>8 (-1)</td><td>10 (+0)</td><td>10 (+0)</td><td>18 (+4)</td><td>15 (+2)</td><td>11 (+0)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Arcana +8, History +8, Insight +4, Investigation +8, Medicine +6, Nature +8, Religion +8</li>
+				<li><strong>Senses</strong> passive Perception 12</li>
+				<li><strong>Languages</strong> Common plus any four languages</li>
+				<li><strong>Challenge</strong> 1/2</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Shoocking Grasp (Cantrip). </em></strong><em>Melee Spell Attack:</em> +8 to hit, reach 5 ft., one creature. <em>Hit:</em> 13 (3d8) lightning damage, and the target can't take reactions until the start of its next turn.</li>
+				<p></p>
+				<li><strong><em>Spellcasting. </em></strong>The sage casts one of the following spells, using Intelligence as the spellcasting ability (save DC 14, +6 to hit with spell attacks):</li>
+				<p></p>
+				<li>At will: <em>light, mage hand, mending</em></li>
+				<li>3/day each: <em>comprehend languages, detect magic, identify</em></li>
+				<li>1/day each: <em>dispel magic, levitate, locate object, see invisibility, sending, tongues, unseen servant</em></li>
+			</ul>
+			<h4 style="margin-top:10px">Reactions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Shield (1st-Level Spell; 3/Day). </em></strong>When the sage is hit by an attack or tageted by a <em>magic missile</em> spell, it calls forth an invisible barrier of magical force that protect it. Until the start of its next turn, the sage has a +5 bonus to AC, including against the triggering attack, and it takes no damage from <em>magic missile</em>.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<element name="Miirym" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_STATBLOCK_MIIRYM">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Miirym</h3>
+			<p style="margin-bottom:-5px"><em>Large Undead, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 10</li>
+				<li><strong>Hit Points</strong> 262 (25d10 + 125)</li>
+				<li><strong>Speed</strong> 0 ft., fly 60 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>17 (+3)</td><td>10 (+0)</td><td>20 (+5)</td><td>18 (+4)</td><td>15 (+2)</td><td>23 (+6)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Dex +7, Con +12, Int +11, Wis +9, Cha +13</li>
+				<li><strong>Skills</strong> Arcana +11, History +11, Perception +16, Stealth +14</li>
+				<li><strong>Damage Resistances</strong> acid, fire, lightning, thunder</li>
+				<li><strong>Damage Immunities</strong> cold, necrotic, poison</li>
+				<li><strong>Condition Immunities</strong> charmed, exhaustion, frightened, grappled, paralyzed, poisoned, prone, restrained</li>
+				<li><strong>Senses</strong> blindsight 60 ft., darkvision 120 ft., passive Perception 26; see also "X-Ray Vision" below</li>
+				<li><strong>Languages</strong> Common, Draconic</li>
+				<li><strong>Challenge</strong> 22</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong><em>Bound to Candlekeep. </em></strong>Miirym can't leave Candlekeep and is immune to any effect that would place her in a location outside it, including an extradimensional space. If she dies, Miirym regains her form and all her hit points adter 1d10 days, reappearing in the location where she died or in the nearest unoccupied space.</li>
+				<p></p>
+				<li><strong><em>Regeneration. </em></strong>Miirym regains 40 hit points at the start of her turn. If Miirym takes damage from a magic weapon or a spell, this trait doesn't function at the start of Miirym's next turn. Miirym dies only if she starts her turn with 0 hit points and doesn't regenerate.</li>
+				<p></p>
+				<li><strong><em>Incorporeal Movement. </em></strong>Miirym can move through otehr creatures and objects as if they were difficult terrain. She takes 5 (1d10) force damage if she ends her turn inside an object.</li>
+				<p></p>
+				<li><strong><em>Legendary Resistance (3/Day). </em></strong>If Miirym fails a saving throw, she can choose succeed instead.</li>
+				<p></p>
+				<li><strong><em>X-Ray Vision.</em></strong>Miirym can see through solid matter out to a range of 60 feet. To her, opaque cretures, objects, and obstacles within that distance appear transparent and don't prevent light from passing through them. This vision can penetrate 5 feet of stone, 3 inches of common metal, and up to 10 feet of wood or dirt. Thicker substances block this vision, as does a thin sheet of lead.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Bite. </em></strong><em>Melee Weapon Attack:</em> +10 to hit, reach 5 ft., one target. <em>Hit:</em> 34 (9d6 + 3) force damage.</li>
+				<p></p>
+				<li><strong><em>Breath Weapon (Recharge 5-6). </em></strong>Miirym uses one of the following breath weapons:</li>
+				<li><strong><em>Cold Breath. </em></strong>Miirym exhales an icy blast in a 90-foot cone. Each creature in that area must make a DC 21 Constitution saving throw, taking 67 (15d8) cold damage ona failed save, or half as much damage on a successful one.</li>
+				<li><strong><em>Necrotic Breath. </em></strong>Miirym exhales abolt of necrotic energy in a 120-foot line that is 10 feet wide. Each creature in that line must make a DC 21 Dexterity saving throw, taking 82 (15d10) necrotic damage ona failed save, or half as much damage on a successful one.</li>
+				<li><strong><em>Paralyzing Breath. </em></strong>Miirym exhales paralyzing gas in a 90-foot cone. Each creature in that area must make a DC 21 Constitution saving throw or become paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li>
+				<p></p>
+				<li><strong><em>Frightful Presence. </em></strong>Each creature of Miirym's choice that is within 120 feet of her and aware of her must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creture's saving throw is successful or the effect ends for it, the creture is immune to Miiryn's Frightful Presence for the next 24 hours.</li>
+				<p></p>
+				<li><strong><em>Spellcasting. </em></strong>The sage casts one of the following spells, using Charisma as the spellcasting ability (save DC 21) and requiring no material components:</li>
+				<p></p>
+				<li>At will: <em>dancing lights, mage hand</em></li>
+				<li>3/day each: <em>detect magic, detect thoughts, dispel magic, locate creature</em></li>
+				<li>1/day each: <em>dispel evil and good, wall of force</em></li>
+			</ul>
+			<h4 style="margin-top:10px">Legendary Actions</h4>
+			<ul class="unstyled">
+				<p>Miirym can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Miirym regains spent legendary actions at the start of her turn.</p>
+				<li><strong><em>Bite. </em></strong>Miirym makes a bite attack.</li>
+				<p></p>
+				<li><strong><em>Teleport (Costs 2 Actions). </em></strong>Miirym magically teleports up to 120 feet to an unoccupied space she can see.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<!-- TJoES creatures -->
+	<element name="Swarm of Animated Books" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_STATBLOCK_SWARM_OF_ANIMATED_BOOKS">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Swarm of Animated Books</h3>
+			<p style="margin-bottom:-5px"><em>Medium swarm of Tiny constructs, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 12</li>
+				<li><strong>Hit Points</strong> 22 (4d8 + 4)</li>
+				<li><strong>Speed</strong> 0 ft., fly 30 ft. (hover)</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>10 (+0)</td><td>13 (+1)</td><td>12 (+1)</td><td>1 (-5)</td><td>10 (+0)</td><td>1 (-5)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Damage Vulnerabilities</strong> fire</li>
+				<li><strong>Damage Immunities</strong> poison, psychic</li>
+				<li><strong>Condition Immunities</strong> charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned</li>
+				<li><strong>Senses</strong> blindsight 60 ft. (blind beyond this radius), passive Perception 10</li>
+				<li><strong>Languages</strong> —</li>
+				<li><strong>Challenge</strong> 1/4</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong><em>False Objects. </em></strong>If the swarm is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the swarm move or act, that creature must succeed on a DC 15 Wisdom (Perception) check to discern that the swarm is animate.</li>
+				<p></p>
+				<li><strong><em>Swarm. </em></strong>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a 1-foot-tall, 8-inch-wide, 2-inch-thick object. The swarm can't regain hit ponts or gain temporary hit points.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Book Club. </em></strong><em>Melee Weapon Attack:</em> +3 to hit, reach 0 ft., one target in the swarm's space. <em>Hit:</em> 6 (2d4 + 1) bludgeoning damage, or 3 (1d4 +1) bludgeoning damage if the swarm has half its hit points or fewer.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<element name="Animated Broom" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_STATBLOCK_ANIMATED_BROOM">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Animated Broom</h3>
+			<p style="margin-bottom:-5px"><em>Small construct, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 15 (Natural Armor)</li>
+				<li><strong>Hit Points</strong> 17 (5d6)</li>
+				<li><strong>Speed</strong> 0 ft., fly 50 ft. (hover)</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>10 (+0)</td><td>17 (+3)</td><td>10 (+0)</td><td>1 (-5)</td><td>5 (-3)</td><td>1 (-5)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Damage Immunities</strong> poison, psychic</li>
+				<li><strong>Condition Immunities</strong> blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, prone</li>
+				<li><strong>Senses</strong> blindsight 120 ft. (blind beyond this radius), passive Perception 7</li>
+				<li><strong>Languages</strong> —</li>
+				<li><strong>Challenge</strong> 1/4</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong><em>False Object. </em></strong>If the broom is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the broom move or act, that creature must succeed on a DC 15 Wisdom (Perception) check to discern that the broom is animate.</li>
+				<p></p>
+				<li><strong><em>Flyby. </em></strong>The broom doesn't provoke opportunity attacks when it flies out of an enemy's reach.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The broom makes two melee attacks.</li>
+				<p></p>
+				<li><strong><em>Broomstick. </em></strong><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d4 + 3) bludgeoning damage.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<element name="Animated Chained Library" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_STATBLOCK_ANIMATED_CHAINED_LIBRARY">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Animated Chained Library</h3>
+			<p style="margin-bottom:-5px"><em>Large construct, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 14 (natural armor)</li>
+				<li><strong>Hit Points</strong> 45 (6d10 + 12)</li>
+				<li><strong>Speed</strong> 10 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>15 (+2)</td><td>8 (-1)</td><td>14 (+2)</td><td>1 (-5)</td><td>5 (-3)</td><td>1 (-5)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Damage Immunities</strong> poison, psychic</li>
+				<li><strong>Condition Immunities</strong> blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, prone</li>
+				<li><strong>Senses</strong> blindsight 30 ft. (blind beyond this radius), passive Perception 7</li>
+				<li><strong>Languages</strong> —</li>
+				<li><strong>Challenge</strong> 1</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong><em>False Object. </em></strong>If the library is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the library move or act, that creature must succeed on a DC 15 Wisdom (Perception) check to discern that the library is animate.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The broom makes two melee attacks.</li>
+				<p></p>
+				<li><strong><em>Chained Book. </em></strong><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d8 + 2) bludgeoning damage, and if the target is a creture, it is grappled (escape DC 12).</li>
+			</ul>
+		</description>
+	</element>
+	
+	<!-- MMD Creatures -->
+	<element name="Gingwatzim" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_STATBLOCK_GINGWATZIM">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Gingwatzim</h3>
+			<p style="margin-bottom:-5px"><em>Small aberration (shapechanger), unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 12</li>
+				<li><strong>Hit Points</strong> 39 (6d6 + 18)</li>
+				<li><strong>Speed</strong> 30 ft., fly 30 ft. (hover) in its true form only</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>3 (-4)</td><td>15 (+2)</td><td>16 (+3)</td><td>4 (-3)</td><td>11 (+0)</td><td>6 (-2)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Damage Immunities</strong> poison</li>
+				<li><strong>Condition Immunities</strong> poisoned</li>
+				<li><strong>Senses</strong> blindsight 60 ft. (blind beyond this radius), passive Perception 10</li>
+				<li><strong>Languages</strong> telepathy 60 ft.</li>
+				<li><strong>Challenge</strong> 2</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong><em>Alternate Forms. </em></strong>The gingwatzim has two alternate forms, both of which are chosen by its creator when the gingwatzim comes into being. One form is an exact duplicate of a Tiny nonmagical object (such as a book, dagger, or gemstone) that its creator is carrying or wearing when the gingwatzim is conjured. The other form can be a Tiny beast. Once these alternate forms are chosen, they can't be changed.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Energy Drain (True Form Only). </em></strong><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one creature. <em>Hit:</em> 16 (4d6 + 2) necrotic damage, and the target must succeed a DC 12 Constitution saving throw or gain 1 level of exhaustion. When the target finishes a short or long rest, the target loses every level of exhaustion gained from this attack.</li>
+				<p></p>
+				<li><strong><em>Change Shape. </em></strong>The gingwatzim changes from its true form - a 3-foot-diameter sphere of luminous ectoplasm- into one of its two alternate forms, or from one of those forms back into its true form. In object form, it cna't move or make attacks but otherwise retains its statistics, and it is indestiguishable from the thing it is imatating. In beast form it retains its hit points but otherwise uses the stat block of the beast it is imitating. When it dies, the gingwatzim reverts to its true form and then vanishes.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<!-- BotR Creatures -->
+	<element name="Wereraven" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_STATBLOCK_WARERAVEN">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Wereraven</h3>
+			<p style="margin-bottom:-5px"><em>Medium humanoid (shapechanger), unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 12</li>
+				<li><strong>Hit Points</strong> 31 (7d8)</li>
+				<li><strong>Speed</strong> 30 ft. in humanoid form; 10 ft., fly 50 ft. in raven form; 30 ft., fly 50 ft. in hybrid form</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>10 (+0)</td><td>15 (+2)</td><td>11 (+0)</td><td>13 (+1)</td><td>15 (+2)</td><td>14 (+2)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Insight +4, Perception +6</li>
+				<li><strong>Senses</strong> passive Perception 16</li>
+				<li><strong>Languages</strong> Common (can't speak in raven form)</li>
+				<li><strong>Challenge</strong> 2</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong><em>Mimicry. </em></strong>The wereraven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chattering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check.</li>
+				<p></p>
+				<li><strong><em>Regeneration. </em></strong>The wereraven regains 10 hit points at the start of its turn. If the wereraven takes damage from a silvered weapon or a spell, this trait doesn't function at the start of the wereraven's next turn. The wereraven dies only if it starts its turn with 0 hit points and doesn't regenerate.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack (Humanoid or Hybrid Form Only). </em></strong>The wereraven makes two weapon attacks, one of which can be with its hand crossbow.</li>
+				<p></p>
+				<li><strong><em>Beak (Raven or Hybrid Form Only). </em></strong><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 1 piercing damage in raven form, or 4 (1d4 + 2) piercing damage in hybrid form. If the target is is a humanoid, it must succeed a DC 10 Constitution saving throw or be cursed with wereraven lycanthropy.</li>
+				<p></p>
+				<li><strong><em>Shortsword (Humanoid or Hybrid Form Only). </em></strong><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage.</li>
+				<p></p>
+				<li><strong><em>Hand Crossbow (Humanoid or Hybrid Form Only). </em></strong><em>Ranged Weapon Attack:</em> +4 to hit, range 30/120 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage.</li>
+				<p></p>
+				<li><strong><em>Change Shape. </em></strong>The wereraven polymorphs into a raven-humanoid hybrid or into a raven, or back into its humanoid form. Its statistics, other than its size and speed, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its humanoid form if it dies.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<!-- ADaCD Creatures -->
+	<element name="Meenlock" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_STATBLOCK_MEENLOCK">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Meenlock</h3>
+			<p style="margin-bottom:-5px"><em>Small fey, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 15 (natural armor)</li>
+				<li><strong>Hit Points</strong> 31 (7d6 + 7)</li>
+				<li><strong>Speed</strong> 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>6 (-2)</td><td>15 (+2)</td><td>12 (+1)</td><td>11 (+0)</td><td>10 (+0)</td><td>8 (-1)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Perception +4, Stealth +6, Survival +2</li>
+				<li><strong>Condition Immunities</strong> frightened</li>
+				<li><strong>Senses</strong> darkvision 120 ft., passive Perception 14</li>
+				<li><strong>Languages</strong> telepathy 120 ft.</li>
+				<li><strong>Challenge</strong> 2</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong><em>Fear Aura. </em></strong>Any beast or humanoid that starts its turn withing 10 feet of the meenlock must succeed on a DC 11 Wisdom saving throw or be frightened until the start of the creature's next turn.</li>
+				<p></p>
+				<li><strong><em>Light Sensitivity. </em></strong>While in bright light, the meenlock has disadvantage on attack rolls, as well as Wisdom (Perception) checks that rely on sight.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Claws. </em></strong><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (2d4 + 2) slashing damage, and if the target is a creture, it must succeed on a DC 11 Constitution saving throw or be paralyzed for one minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li>
+			</ul>
+			<h4 style="margin-top:10px">Bonus Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Shadow Teleport (Recharge 5-6). </em></strong>The meenlock teleports to an unoccupied space within 30 feet of it, provided that both the space it's teleporting from and the destination are in dim light or darkness. The destination need not be within line of sight.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<!-- SBR Creatures -->
+	<element name="Shemshime" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_STATBLOCK_SHEMSHIME">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Shemshime</h3>
+			<p style="margin-bottom:-5px"><em>Medium undead, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 13</li>
+				<li><strong>Hit Points</strong> 31 (7d8)</li>
+				<li><strong>Speed</strong> 0 ft.. fly 40 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>6 (-2)</td><td>17 (+3)</td><td>10 (+0)</td><td>17 (+3)</td><td>14 (+2)</td><td>16 (+3)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Int +5, Wis +4</li>
+				<li><strong>Skills</strong> Perception +4, Stealth +7</li>
+				<li><strong>Damage Resistance</strong> acid, bludgeoning, fire, lightning, piercing, slashing, thunder</li>
+				<li><strong>Damage Immunities</strong> cold, necrotic, poison</li>
+				<li><strong>Condition Immunities</strong> charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained</li>
+				<li><strong>Senses</strong> darkvision 120 ft., passive Perception 14</li>
+				<li><strong>Languages</strong> telepathy 60 ft.</li>
+				<li><strong>Challenge</strong> 4</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong><em>Crushing End. </em></strong>If damage reduces Shemshime to 0 hit point, Shemshime instead drops to 1 hit point unless the damage is the result of Shemshime being crushed by an object weighing at least 1,000 pounds.</li>
+				<p></p>
+				<li><strong><em>Incorporeal Movement. </em></strong>Shemshime canmove through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Maddening Touch. </em></strong><em>Melee Spell Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 17 (4d6 + 3) psychic damage.</li>
+				<p></p>
+				<li><strong><em>Whispers of Violence. </em></strong>Shemshime chooses up to two creatures it can see within 60 feet of it. Each target must succeed on a DC 13 Wisdom saving throw, or that target takes 7 (1d8 + 3) psychic damage and must use its reaction to make a melee weapon attack against one creature it can reach (Shemshime's choice) the Shemshime can see.</li>
+				<p></p>
+				<li><strong><em>Howling Bubble (Recharge 6). </em></strong>Shemshime targets one creature it can see within 30 feet of it. The creature must make a DC 13 Wisdom saving throw. On a failed save, it takes 21 (4d8 + 3) psychic damage and is stunned until the end of its next turn. On a successful save, it takes half as much damage and isn't stunned.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<!-- TPoB Creatures -->
+	<element name="Naiad" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_STATBLOCK_NAIAD">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Naiad</h3>
+			<p style="margin-bottom:-5px"><em>Medium fey, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 15 (natural armor)</li>
+				<li><strong>Hit Points</strong> 31 (7d8)</li>
+				<li><strong>Speed</strong> 30 ft., swim 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>10 (+0)</td><td>16 (+3)</td><td>11 (+0)</td><td>15 (+2)</td><td>10 (+0)</td><td>18 (+4)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Persuasion +6, Sleight of Hand +5</li>
+				<li><strong>Damage Resistances</strong> psychic</li>
+				<li><strong>Damage Immunities</strong> poison</li>
+				<li><strong>Condition Immunities</strong> charmed, frightened, poisoned</li>
+				<li><strong>Senses</strong> passive Perception 10</li>
+				<li><strong>Languages</strong> Common, Sylvan</li>
+				<li><strong>Challenge</strong> 2</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong><em>Amphibious. </em></strong>A naiad can breathe air and water.</li>
+				<p></p>
+				<li><strong><em>Invisible in Water. </em></strong>The naiad is invisible while fully immersed in water.</li>
+				<p></p>
+				<li><strong><em>Magic Resistance. </em></strong>The naiad has advantage on saving throws against spell and other magical effects.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The naiad makes two psychic touch attacks.</li>
+				<p></p>
+				<li><strong><em>Psychic Touch. </em></strong><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 9 (1d10 + 4) psychic damage.</li>
+				<p></p>
+				<li><strong><em>Spellcasting. </em></strong>The naiad casts one of the following spells using Charismaas the spellcasting ability (save DC 14) and requiring no material components:</li>
+				<p></p>
+				<li>At will: <em>minor illusion</em></li>
+				<li>3/day each: <em>phantasmal force</em></li>
+				<li>1/day each: <em>fly, hypnotic pattern</em></li>
+			</ul>
+		</description>
+	</element>
+	
+	<!-- BoC Creatures -->
+	<element name="Grippli Warrior" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_OBC_INFORMATION_STATBLOCK_GRIPPLI_WARRIOR">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Grippli Warrior</h3>
+			<p style="margin-bottom:-5px"><em>Small humanoid (grippli), unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 12</li>
+				<li><strong>Hit Points</strong> 13 (3d6 + 3)</li>
+				<li><strong>Speed</strong> 30 ft., climb 30 ft., swim 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>10 (+0)</td><td>15 (+2)</td><td>12 (+1)</td><td>10 (+0)</td><td>14 (+2)</td><td>10 (+0)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Athletics +2, Stealth +4, Survival +4</li>
+				<li><strong>Senses</strong> passive Perception 12</li>
+				<li><strong>Languages</strong> Grippli plus one other laguage (usually Common, Draconinc, or Primordial)</li>
+				<li><strong>Challenge</strong> 1/4</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong><em>Hold Breath. </em></strong>The grippli can hold its breath for 20 minutes.</li>
+				<p></p>
+				<li><strong><em>Standing Leap. </em></strong>The grippli can leap 30 feet horizontally or 20 feet vertially from a standing position.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The grippli makes one attack with its tongue. If this attack hits, the grippli can make a melee attack using its trident against the same target.</li>
+				<p></p>
+				<li><strong><em>Tongue. </em></strong><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one medium or smaller creture. <em>Hit:</em> The target is grappled (escape DC 12). Until the grapple ends, the target is restrained, and the grippli can't grab another creature.</li>
+				<p></p>
+				<li><strong><em>Trident. </em></strong><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft. or range 20/60 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack, plus 2 (1d4) piercing damage if the grippli had advantage on the attack roll.</li>
+				<p></p>
+				<li><strong><em>Shortbow. </em></strong><em>Ranged Weapon Attack:</em> +4 to hit, range 80/320 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage, plus 2 (1d4) piercing damage if the grippli had advantage on the attack roll.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<!-- LoL Creatures -->
+	<element name="Corrupted Avatar of Lurue" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_OBC_INFORMATION_STATBLOCK_CORRUPTED_AVATAR_OF_LURUE">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Corrupted Avatar of Lurue</h3>
+			<p style="margin-bottom:-5px"><em>Large monstrosity, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 14 (natural armor)</li>
+				<li><strong>Hit Points</strong> 90 (12d10 + 24)</li>
+				<li><strong>Speed</strong> 50 ft., fly 50 ft. (hover)</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>18 (+4)</td><td>14 (+2)</td><td>15 (+2)</td><td>11 (+0)</td><td>17 (+3)</td><td>16 (+3)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Int +3, Wis +6, Cha +6</li>
+				<li><strong>Damage Immunities</strong> poison</li>
+				<li><strong>Condition Immunities</strong> charmed, paralyzed, poisoned</li>
+				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 13</li>
+				<li><strong>Languages</strong> Celestial, Elvish, Sylvan, telepathy 60 ft.</li>
+				<li><strong>Challenge</strong> 8</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The avatar makes two attacks: one with his hooves and one with its horn.</li>
+				<p></p>
+				<li><strong><em>Hooves. </em></strong><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 32 (8d6 + 4) necrotic damage.</li>
+				<p></p>
+				<li><strong><em>Horn. </em></strong><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 32 (8d6 + 4) necrotic damage. If the target is a humanoid, it must succeed ono a DC 13 Wisdom saving throw or be transformed into a wolf under the avatar's control. This transfromation lasts 1 hour, or until the target drops to 0 hit points or dies. The target's game statistics are replaced by the wolf's statistics, but it retains its hit points. The target is limited in the actions it can perfoorm by the nature of its wolf form, and it can't speak, cast spells, or take any other action that requires hands or speech. The target's gear melds intoo the new form, and can't activate, use, wield, or otherwise benefit from any of its equipment.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<!-- KD Creatures -->
+	<element name="Skitterwidget" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_OBC_INFORMATION_STATBLOCK_SKITTERWIDGET">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Skitterwidget</h3>
+			<p style="margin-bottom:-5px"><em>Medium construct, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 18 (natural armor)</li>
+				<li><strong>Hit Points</strong> 85 (10d8 + 40)</li>
+				<li><strong>Speed</strong> 30 ft., climb 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>16 (+3)</td><td>14 (+2)</td><td>18 (+4)</td><td>3 (-4)</td><td>10 (+0)</td><td>1 (-5)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Damage Immunities</strong> lightning, poison</li>
+				<li><strong>Condition Immunities</strong> blinded, deafened, exhaustion, paralyzed, petrified, poisoned</li>
+				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 10</li>
+				<li><strong>Languages</strong> Skitterwidget</li>
+				<li><strong>Challenge</strong> 5</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong><em>Lightning Absorbtion. </em></strong>Whenever the skitterwidget is subjected to lightning damage, it takes no damage and instead regains a number of hit points equal to the lightning damage dealt.</li>
+				<p></p>
+				<li><strong><em>Unusual Nature. </em></strong>The skitterwidget doesn't require air, food, drink, or sleep.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The skitterwidget makes two attacks: one with its bite and one with its tail.</li>
+				<p></p>
+				<li><strong><em>Bite. </em></strong><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 10 (2d6 + 3) piercing damage. If the target is a creature, it is grappled by the skitterwidget (escape DC 13).</li>
+				<p></p>
+				<li><strong><em>Tail. </em></strong><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) piercing damage plus 10 (3d6) lightning damage, and if the target is a creature, it must succeed on a DC 15 Constitution saving throw or be stunned until the end oof its next turn.</li>
+			</ul>
+			<h4 style="margin-top:10px">Reactions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Good Parent. </em></strong> The skitterwidget imposes disadvantage on one attack roll made against a kiddywidget it can see within 5 feet of it.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<element name="Kiddywidget" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_OBC_INFORMATION_STATBLOCK_KIDDYWIDGET">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Kiddywidget</h3>
+			<p style="margin-bottom:-5px"><em>Small construct, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 16 (natural armor)</li>
+				<li><strong>Hit Points</strong> 15 (2d6 + 8)</li>
+				<li><strong>Speed</strong> 20 ft., climb 20 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>6 (-2)</td><td>14 (+2)</td><td>18 (+4)</td><td>1 (-5)</td><td>10 (+0)</td><td>1 (-5)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Damage Immunities</strong> lightning, poison</li>
+				<li><strong>Condition Immunities</strong> blinded, deafened, exhaustion, paralyzed, petrified, poisoned</li>
+				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 10</li>
+				<li><strong>Languages</strong> Skitterwidget</li>
+				<li><strong>Challenge</strong> 1/2</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong><em>Unusual Nature. </em></strong>The kiddywidget doesn't require air, food, drink, or sleep.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The kiddywidget makes two attacks: one with its bite and one with its tail.</li>
+				<p></p>
+				<li><strong><em>Bite. </em></strong><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 4 (1d4 + 2) piercing damage. If the target is a creature, it is grappled by the kiddywidget (escape DC 8).</li>
+				<p></p>
+				<li><strong><em>Tail. </em></strong><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 4 (1d4 + 2) piercing damage plus 2 (1d4) lightning damage.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<!-- ZZT Creatures -->
+	<element name="Cloud Giant Ghost" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_OBC_INFORMATION_STATBLOCK_CLOUD_GIANT_GHOST">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Cloud Giant Ghost</h3>
+			<p style="margin-bottom:-5px"><em>Huge undead, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 15 (natural armor)</li>
+				<li><strong>Hit Points</strong> 104 (16d12)</li>
+				<li><strong>Speed</strong> 0 ft., fly 40 ft. (hover)</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>27 (+8)</td><td>11 (+0)</td><td>10 (+0)</td><td>12 (+1)</td><td>16 (+3)</td><td>17 (+3)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Wis +7, Cha +7</li>
+				<li><strong>Skills</strong> Perception +7</li>
+				<li><strong>Damage Resistances</strong> cold</li>
+				<li><strong>Damage Immunities</strong> necrotic, poison</li>
+				<li><strong>Condition Immunities</strong> charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained</li>
+				<li><strong>Senses</strong> darkvision 120 ft., passive Perception 17</li>
+				<li><strong>Languages</strong> Common, Giant</li>
+				<li><strong>Challenge</strong> 9</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong><em>Ethereal Sight. </em></strong>The ghost can see 120 feet into the Ethereal Plane when it is on the Material Plane, and vice versa.</li>
+				<p></p>
+				<li><strong><em>Incorporeal Movement. </em></strong>The ghost can move throgh other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</li>
+				<p></p>
+				<li><strong><em>Regeneration. </em></strong>The ghost regains 10 hit points at the start of its turns. If the ghost takes radiant damage or damage from a magic weapon, this trait doesn't function at the start of the ghost's next turn. The ghost dies only if it starts its turn with 0 hit points and doesn't regenerate.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The ghost makes two melee attacks.</li>
+				<p></p>
+				<li><strong><em>Spectral Weapon. </em></strong><em>Melee Weapon Attack:</em> +12 to hit, reach 10 ft., one target. <em>Hit:</em> 21 (3d8 + 8) force damage.</li>
+				<p></p>
+				<li><strong><em>Etherealness. </em></strong>The ghost enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane.</li>
+				<p></p>
+				<li><strong><em>Spellcasting. </em></strong>The ghost casts one of the following  spells, using Charisma as the spellcasting ability and requiring no material components:</li>
+				<p></p>
+				<li>At will: <em>fog cloud</em></li>
+				<li>3/day each: <em>telekinesis</em></li>
+				<li>1/day each: <em>control weather</em></li>
+				<p></p>
+				<li><strong><em>Wind Howl (Recharge 6). </em></strong>The ghost emits a dreadful howl that summons a cold, biting wind. This wind engulfs up too three creatures of the ghost's choice that it can see within 60 feet of it. Each target is pulled up to 20 feet toward the ghost and must make a DC 15 Constitution saving throw, taking 16 (3d10) coold damage on a failed save, or half as much damage on a successful one.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<!-- TCToWV Creatures -->
+	<element name="Constructed Commoner" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_OBC_INFORMATION_STATBLOCK_CONSTRUCTED_COMMONER">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Constructed Commoner</h3>
+			<p style="margin-bottom:-5px"><em>Medium construct, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 15 (natural armor)</li>
+				<li><strong>Hit Points</strong> 6 (1d8 + 2)</li>
+				<li><strong>Speed</strong> 25 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>10 (+0)</td><td>10 (+0)</td><td>15 (+2)</td><td>10 (+0)</td><td>10 (+0)</td><td>10 (+0)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Damage Immunities</strong> poison</li>
+				<li><strong>Condition Immunities</strong> exhaustion, poisoned</li>
+				<li><strong>Senses</strong> passive Perception 10</li>
+				<li><strong>Languages</strong> Common</li>
+				<li><strong>Challenge</strong> 0</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong><em>Unusual Nature. </em></strong>The commoner doesn't require air, food, drink, or sleep, and it gains no benefit from finishing a short or long rest. When it drops to 0 hit points, it becomes a lifeless object.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Club. </em></strong><em>Melee Weapon Attack:</em> +2 to hit, reach 5 ft., one target. <em>Hit:</em> 2 (1d4) bludgeoning damage.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<element name="Arrant Quill" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_OBC_INFORMATION_STATBLOCK_ARRANT_QUILL">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Arrant Quill</h3>
+			<p style="margin-bottom:-5px"><em>Medium humanoid (human), unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 14</li>
+				<li><strong>Hit Points</strong> 135 (18d8 + 54)</li>
+				<li><strong>Speed</strong> 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>10 (+0)</td><td>18 (+4)</td><td>16 (+3)</td><td>16 (+3)</td><td>15 (+2)</td><td>20 (+5)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Int +7, Wis +6, Cha +9</li>
+				<li><strong>Skills</strong> Arcana +11, Deception +9, History +7, Performance +13</li>
+				<li><strong>Senses</strong> passive Perception 12</li>
+				<li><strong>Languages</strong> Common, Draconic, Elvish, Undercommon</li>
+				<li><strong>Challenge</strong> 11</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong> Quill makes two attacks with his dagger and uses Supreme Mockery.</li>
+				<p></p>
+				<li><strong><em>Dagger. </em></strong><em>Melee or Ranged Weapon Attack:</em> +8 to hit, reach 5 ft. or range 20/60 ft., one target. <em>Hit:</em> 6 (1d4 + 4) piercing damage.</li>
+				<p></p>
+				<li><strong><em>Quill's Fable (Recharge 6). </em></strong>Quill utters a short fable while targetting up to five creatures within 30 feet of him that he can see. Each target that can hear Quill's magical fable must make a DC 17 Wisdom saving throw, taking 36 (8d8) psychic damage on a failed save, or half as much damage on a successful one.</li>
+				<p></p>
+				<li><strong><em>Spellcasting. </em></strong>Quill casts one of the following spells using Charisma as the spellcasting ability (save DC 17):</li>
+				<p></p>
+				<li>At will: <em>light, mage hand, prestidigitation</em></li>
+				<li>3/day each: <em>detect magic, dispel magic, faerie fire, hold monster</em></li>
+				<li>1/day each: <em>mind blank, teleport</em></li>
+				<p></p>
+				<li><strong><em>Supreme Mockery. </em></strong>Quill hurls a string of insults laced with enchantments at a creature he can see within 60 feet of him. If the creature can hear Quill (though it need not understand him)m it must succeed on a DC 17 Wisdom saving throw or take 66 (12d10) psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<!-- tBoIA Creatures -->
+	<element name="Steel Crane" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_OBC_INFORMATION_STATBLOCK_STEEL_CRANE">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Steel Crane</h3>
+			<p style="margin-bottom:-5px"><em>Medium humanoid (human), unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 17 (unarmored defense)</li>
+				<li><strong>Hit Points</strong> 76 (9d8 + 36)</li>
+				<li><strong>Speed</strong> 40 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>13 (+1)</td><td>18 (+4)</td><td>18 (+4)</td><td>13 (+1)</td><td>17 (+3)</td><td>14 (+2)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Dex +7, Int +4</li>
+				<li><strong>Skills</strong> Acrobatics +7, Deception +5, Perception +6, Stealth +7</li>
+				<li><strong>Damage Resistances</strong> poison, psychic</li>
+				<li><strong>Senses</strong> passive Perception 16</li>
+				<li><strong>Languages</strong> Common</li>
+				<li><strong>Challenge</strong> 8</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong><em>Unarmored Defense. </em></strong>While Steel Crane is wearing no armor and wielding no shield, his AC includes his Wisdom modifier.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>Steel Crane makes three attacks.</li>
+				<p></p>
+				<li><strong><em>Force Strike. </em></strong><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 8 (1d8 + 4) force damage, and if the target is a creature, it must succeed on a DC 15 Constitution saving throw or be stunned until the start of Steel Crane's next turn.</li>
+				<p></p>
+				<li><strong><em>Whip. </em></strong><em>Melee Weapon Attack:</em> +7 to hit, reach 10 ft., one target. <em>Hit:</em> 6 (1d4 + 4) slashing damage or, if the target is a creature, Steel Crane can grapple the target instead (escape DC 15). Steel Crane can't make attacks with the whip while using it to grapple a creature. Anytime on his turn, he can release a creature grappled by the whip (no action required).</li>
+				<p></p>
+				<li><strong><em>Heal Self (Recharges after a Long Rest). </em></strong>Steel Crane regains 2d8 + 4 hit points, and all levels of exhaustion end on him.</li>
+			</ul>
+			<h4 style="margin-top:10px">Reactions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Deflect Missile. </em></strong>In response to being hit by a ranged weapon attack, Steel Crane deflects the missile. The damage he takes from the attack is reduced by 1d10 + 10. If the damage is reduced to 0, Steel Crane catches the missile if it's small enough to hold in one hand and Steel Crane has a hand free.</li>
+				<p></p>
+				<li><strong><em>Slow Descent (3/Day). </em></strong>When Steel Crane falls, he can slow his descent, taking no fall damage from the fall.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<element name="Immortal Lotus Monk" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_OBC_INFORMATION_STATBLOCK_IMMORTAL_LOTUS_MONK">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Immortal Lotus Monk</h3>
+			<p style="margin-bottom:-5px"><em>Medium humanoid, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 15 (unarmored defense)</li>
+				<li><strong>Hit Points</strong> 65 (10d8 + 20)</li>
+				<li><strong>Speed</strong> 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>12 (+1)</td><td>16 (+3)</td><td>14 (+2)</td><td>11 (+0)</td><td>14 (+2)</td><td>10 (+0)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Acrobatics +6, Perception +5, Stealth +6</li>
+				<li><strong>Senses</strong> passive Perception 15</li>
+				<li><strong>Languages</strong> Common</li>
+				<li><strong>Challenge</strong> 5</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong><em>Unarmored Defense. </em></strong>While the monk is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The monk makes three attacks.</li>
+				<p></p>
+				<li><strong><em>Force Strike. </em></strong><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d8 + 3) force damage, and if the target is a creature, it must succeed on a DC 14 Dexterity saving throw or be knocked prone.</li>
+				<p></p>
+				<li><strong><em>Dart. </em></strong><em>Ranged Weapon Attack:</em> +6 to hit, range 20/60 ft., one target. <em>Hit:</em> 5 (1d4 + 3) piercing damage.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<element name="Jade Tigress" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_OBC_INFORMATION_STATBLOCK_JADE_TIGRESS">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Jade Tigress</h3>
+			<p style="margin-bottom:-5px"><em>Medium humanoid (human), unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 15 (unarmored defense)</li>
+				<li><strong>Hit Points</strong> 71 (11d8 + 21)</li>
+				<li><strong>Speed</strong> 40 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>18 (+4)</td><td>14 (+2)</td><td>15 (+2)</td><td>11 (+0)</td><td>16 (+3)</td><td>11 (+0)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Str +7, Con +5</li>
+				<li><strong>Skills</strong> Athletics +7, Insight +6, Intimidation +3, Perception +6</li>
+				<li><strong>Damage Resistances</strong> poison</li>
+				<li><strong>Condition Immunities</strong> charmed, frightened</li>
+				<li><strong>Senses</strong> passive Perception 16</li>
+				<li><strong>Languages</strong> Common</li>
+				<li><strong>Challenge</strong> 8</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong><em>Unarmored Defense. </em></strong>While Jade Tigress is wearing no armor and wielding no shield, her AC includes her Wisdom modifier.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>Jade Tigress makes three attacks.</li>
+				<p></p>
+				<li><strong><em>Force Strike. </em></strong><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 13 (2d8 + 4) force damage, and if the target is a creature, it must succeed on a DC 15 Constitution saving throw or be stunned until the start of Jade Tigress' next turn.</li>
+				<p></p>
+				<li><strong><em>Dart. </em></strong><em>Ranged Weapon Attack:</em> +5 to hit, range 20/60 ft., one target. <em>Hit:</em> 4 (1d4 + 2) piercing damage plus 7 (3d4) poison damage, and the target must succeed on a DC 15 Constitution saving throw or gain one level of exhaustion.</li>
+				<p></p>
+				<li><strong><em>Heal Self (Recharges after a Long Rest). </em></strong>Jade Tigress regains 2d8 + 2 hit points, and all levels of exhaustion end on her.</li>
+			</ul>
+			<h4 style="margin-top:10px">Bonus Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Nimble Escape. </em></strong>Jade Tigress takes the Disengage or Hide action.</li>
+			</ul>
+			<h4 style="margin-top:10px">Reactions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Deflect Missile. </em></strong>In response to being hit by a ranged weapon attack, Jade Tigress deflects the missile. The damage she takes from the attack is reduced by 1d10 + 9. If the damage is reduced to 0, Jade Tigress catches the missile if it's small enough to hold in one hand and Jade Tigress has a hand free.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<element name="Bak Mei" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_OBC_INFORMATION_STATBLOCK_BAK_MEI">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Bak Mei</h3>
+			<p style="margin-bottom:-5px"><em>Medium humanoid (human), unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 17 (unarmored defense)</li>
+				<li><strong>Hit Points</strong> 102 (12d8 + 48)</li>
+				<li><strong>Speed</strong> 40 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>10 (+0)</td><td>18 (+4)</td><td>18 (+4)</td><td>13 (+1)</td><td>17 (+3)</td><td>16 (+3)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Str +5, Dex +9, Con +9, Int +6, Wis +8, Cha +8</li>
+				<li><strong>Skills</strong> Acrobatics +9, Athletics +5, Medicine +8, Religion +6, Stealth +9</li>
+				<li><strong>Damage Resistances</strong> poison, thunder</li>
+				<li><strong>Condition Immunities</strong> charmed, frightenedm paralyzed</li>
+				<li><strong>Senses</strong> passive Perception 13</li>
+				<li><strong>Languages</strong> Auran, Common</li>
+				<li><strong>Challenge</strong> 13</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong><em>Legendary Resistance (2/Day). </em></strong>If Bak Mei fails a saving throw, he can choose to succeed instead.</li>
+				<p></p>
+				<li><strong><em>Special Equipment. </em></strong>Bak Mei carries a <em>staff of striking</em> with 10 charges.</li>
+				<p></p>
+				<li><strong><em>Unarmored Defense. </em></strong>While Bak Mei is wearing no armor and wielding no shield, his AC includes his Wisdom modifier.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>Bak Mei attacks three times: twice with Thunder Strike and once with his <em>staff of striking</em>.</li>
+				<p></p>
+				<li><strong><em>Thunder Strike. </em></strong><em>Melee Weapon Attack:</em> +9 to hit, reach 5 ft., one target. <em>Hit:</em> 15 (2d10 + 4) thunder damage, and if the target is a creature, it must succeed on a DC 17 Constitution saving throw or be stunned until the start of Bak Mei's next turn.</li>
+				<p></p>
+				<li><strong><em>Staff of Striking. </em></strong><em>Melee Weapon Attack:</em> +9 to hit, reach 5 ft., one target. <em>Hit:</em> 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage when used with two hands, and Bak Mei can expend up to 3 of the staff's charges. For each expended charge, the target takes an extra 1d6 force damage.</li>
+				<p></p>
+				<li><strong><em>Heal Self (Recharges after a Long Rest). </em></strong>Bak Mei regains 2d8 + 4 hit points, and all levels of exhaustion end on him.</li>
+			</ul>
+			<h4 style="margin-top:10px">Bonus Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Nimble Escape. </em></strong>Bak Mei takes the Disengage or Hide action.</li>
+			</ul>
+			<h4 style="margin-top:10px">Reactions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Deflect Missile. </em></strong>In response to being hit by a ranged weapon attack, Bak Mei deflects the missile. The damage she takes from the attack is reduced by 1d10 + 12. If the damage is reduced to 0, Bak Mei catches the missile if it's small enough to hold in one hand and Bak Mei has a hand free.</li>
+			</ul>
+			<h4 style="margin-top:10px">Legendary Actions</h4>
+			<ul class="unstyled">
+				<p>Bak Mei can make 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Bak Mei regains spent legendary actions at the start of his turn.</p>
+				<li><strong><em>Crane Dance. </em></strong>Bak MEi moves up to 20 feet. This movement does not provoke opportunity attacks.</li>
+				<p></p>
+				<li><strong><em>Thunder Strike (Costs 2 Actions). </em></strong>Bak Mei uses Thunder Strike.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<!-- TCB Creatures -->
+	<element name="Canopic Golem" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_OBC_INFORMATION_STATBLOCK_CANOPIC_GOLEM">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Canopic Golem</h3>
+			<p style="margin-bottom:-5px"><em>Large construct, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 17 (natural armor)</li>
+				<li><strong>Hit Points</strong> 252 (24d10 + 120)</li>
+				<li><strong>Speed</strong> 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>20 (+5)</td><td>10 (+0)</td><td>20 (+5)</td><td>7 (-2)</td><td>11 (+0)</td><td>1 (-5)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Int +3, Wis +5, Cha +0</li>
+				<li><strong>Damage Immunities</strong> poison</li>
+				<li><strong>Condition Immunities</strong> blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned</li>
+				<li><strong>Senses</strong> darkvision 120 ft., passive Perception 10</li>
+				<li><strong>Languages</strong> —</li>
+				<li><strong>Challenge</strong> 13</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong><em>Limited Spell Immunity. </em></strong>The golem automatically succeeds on saving throws against spells of 7th level or lower, and the attack rolls of such spells always miss it.</li>
+				<p></p>
+				<li><strong><em>Unusual Nature. </em></strong>The golem doesn't require air, food, drink, or sleep.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The golem makes two attacks.</li>
+				<p></p>
+				<li><strong><em>Slam. </em></strong><em>Melee Weapon Attack:</em> +10 to hit, reach 5 ft., one target. <em>Hit:</em> 27 (4d10 + 5) force damage.</li>
+				<p></p>
+				<li><strong><em>Crystal Dart. </em></strong><em>Ranged Weapon Attack:</em> +10 to hit, reach 5 ft., one target. <em>Hit:</em> 14 (2d8 + 5) piercing damage.</li>
+			</ul>
+			<h4 style="margin-top:10px">Reactions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Spell Deflection. </em></strong>In response to a spell attack missing the golem, it causes that spell to hit another creature within 120 feet of it that it can see.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<!-- TST Creatures -->
+	<element name="Nintra Siotta" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_OBC_INFORMATION_STATBLOCK_NINTRA_SIOTTA">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Nintra Siotta</h3>
+			<p style="margin-bottom:-5px"><em>Large fey, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 17</li>
+				<li><strong>Hit Points</strong> 306 (36d10 + 108)</li>
+				<li><strong>Speed</strong> 40 ft., fly 40 ft. (hover)</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>16 (+3)</td><td>24 (+7)</td><td>16 (+3)</td><td>17 (+3)</td><td>15 (+2)</td><td>24 (+7)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Str +8, Dex +12, Wis +7</li>
+				<li><strong>Skills</strong> Deception +12. Insight +7, Perception +7</li>
+				<li><strong>Condition Immunities</strong> charmed, exhaustion, stunned</li>
+				<li><strong>Senses</strong> truesight 60 ft., passive Perception 17</li>
+				<li><strong>Languages</strong> Common, Elvish, Sylvan</li>
+				<li><strong>Challenge</strong> 16</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong><em>Legendary Resistance (3/Day). </em></strong>If Nintra fails a saving throw, she can choose to succeed instead.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>Nintra makes two attacks.</li>
+				<p></p>
+				<li><strong><em>Claw. </em></strong><em>Melee Weapon Attack:</em> +12 to hit, reach 5 ft., one target. <em>Hit:</em> 12 (2d4 + 7) piercing damage.</li>
+				<p></p>
+				<li><strong><em>Shard of Shadow. </em></strong><em>Ranged Spell Attack:</em> +12 to hit, range 120 ft., one target. <em>Hit:</em> 10 (1d6 + 7) necrotic damage, and if the target is a creature, it must succeed on a DC 20 Constitution saving throw or be poisoned until the end of its next turn.</li>
+				<p></p>
+				<li><strong><em>Spellcasting. </em></strong>Nintra casts one of the following spells, using Charisma as the spellcasting ability (save DC 20) and requiring no material components:</li>
+				<p></p>
+				<li>3/day each: <em>dispel magic, faerie fire, mirror image</em></li>
+				<p></p>
+				<li><strong><em>Storm of Shattered Glass (Recharge 6). </em></strong>Nintra targets a point she can see within 60 feet of her and creates a 20-foot-radius sphere of swirling glass shards centered on that point. Each creature in the spere must make a DC 20 Dexterity saving throw. taking 28 (8d6) slashing damage on a failed save, or half as much damage on a successful one. If Nintrais in the sphere, the shards deal no damage to her.</li>
+			</ul>
+			<h4 style="margin-top:10px">Legendary Actions</h4>
+			<ul class="unstyled">
+				<p>Nintra can make 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Nintra regains spent legendary actions at the start of her turn.</p>
+				<li><strong><em>Attack. </em></strong>Nintra makes one attak.</li>
+				<p></p>
+				<li><strong><em>Fey Step. </em></strong>Nintra teleports to an unoccupied space she can see within 30 feet of her.</li>
+				<p></p>
+				<li><strong><em>Shadow Strikes (Costs 2 Actions). </em></strong>Provided she is in bright or dim light, Nintra causes her shadow to attack a creatuer within 10 feet of her. Her shadow makes two claw attacks, each attack identical to Nintra's except that it deals psychic damage instead of piercing damage.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<!-- AA Creatures -->
+	<element name="Storm Giant Skeleton" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_OBC_INFORMATION_STATBLOCK_STORM_GIANT_SKELETON">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Storm Giant Skeleton</h3>
+			<p style="margin-bottom:-5px"><em>Huge undead, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 13 (armor scraps)</li>
+				<li><strong>Hit Points</strong> 204 (24d12 + 48)</li>
+				<li><strong>Speed</strong> 50 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>29 (+9)</td><td>14 (+2)</td><td>15 (+2)</td><td>3 (-4)</td><td>8 (-1)</td><td>1 (-5)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Str +14, Con +7</li>
+				<li><strong>Skills</strong> Perception +4</li>
+				<li><strong>Damage Vulnerabilities</strong> bludgeoning</li>
+				<li><strong>Damage Resistances</strong> cold</li>
+				<li><strong>Damage Immunities</strong> lightning, poison, thunder</li>
+				<li><strong>Condition Immunities</strong> exhaustion, poison</li>
+				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 14</li>
+				<li><strong>Languages</strong> —</li>
+				<li><strong>Challenge</strong> 16</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The giant makes two attacks with its greatsword or hurls two rocks.</li>
+				<p></p>
+				<li><strong><em>Greatsword. </em></strong><em>Melee Weapon Attack:</em> +14 to hit, reach 10 ft., one target. <em>Hit:</em> 30 (6d6 + 9) slashing damage plus 18 (4d8) necrotic damage.</li>
+				<p></p>
+				<li><strong><em>Rock. </em></strong><em>Ranged Weapon Attack:</em> +14 to hit, range 60/240 ft., one target. <em>Hit:</em> 35 (4d12 + 9) bludgeoning damage.</li>
+				<p></p>
+				<li><strong><em>Lightning Strike (Recharge 5-6). </em></strong>The giant hurls a magical lightning bolt at a point it can see within 500 feet of it. Each creature within 10 feet of that point must make a DC 15 Dexterity saving throw, taking 54 (12d8) lightning damage on a failed save, or half as much damage on a successful one.</li>
+			</ul>
+		</description>
+	</element>
+	
+	<element name="Chwinga" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_OBC_INFORMATION_STATBLOCK_CHWINGA">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Chwinga</h3>
+			<p style="margin-bottom:-5px"><em>Tiny elemental, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 15</li>
+				<li><strong>Hit Points</strong> 5 (2d4)</li>
+				<li><strong>Speed</strong> 20 ft., climb 20 ft., swim 20 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>1 (-5)</td><td>20 (+5)</td><td>10 (+0)</td><td>14 (+2)</td><td>16 (+3)</td><td>16 (+3)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Acrobatics +7, Perception +7, Stealth +7</li>
+				<li><strong>Senses</strong> blindsight 60 ft., passive Perception 17</li>
+				<li><strong>Languages</strong> —</li>
+				<li><strong>Challenge</strong> 0</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong><em>Evasion. </em></strong>When the chwinga is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it isntead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</li>
+				<p></p>
+				<li><strong><em>Unusual Nature. </em></strong>The chwinga doesn't require air, food, or drink. When it dies, it turns into a handful of flower petals, a cloud of pollen, a stone statuette resembling its former self, a tiny sphere of smooth stone, or a puddle of fresh water (your choice).</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Magical Gift (1/Day). </em></strong>The chwinga targets a humanoid it can see within 5 feet of it. The target gains a supernatural charm of the DM's choice. See the <em>Dungeon Master's Guide</em> for more information on supernatural charms.</li>
+				<p></p>
+				<li><strong><em>Natural Shelter. </em></strong>The chwinga magically takes shelter inside a rock, a living plant, or a natural source of fresh water in its space. The chwinga can't be targeted by any attack, spell, or other effect while inside this shelter, and the shelter doesn't impair the chwinga's blindsight. The chwinga can use its action to emerge from its shelter. If its shelter is destroyed, the chwinga is forced out and appears in the shelter's former space, but is otherwise unharmed.</li>
+				<p></p>
+				<li><strong><em>Spellcasting. </em></strong>The chwinga casts one of the following spells, requiring no material components:</li>
+				<p></p>
+				<li>At will: <em>druidcraft, guidance, pass without trace, resistance</em></li>
+			</ul>
+		</description>
+	</element>
+	
+	<!-- X Creatures -->
+	<element name="Lichen Lich" type="Bestiary" source="Candlekeep Mysteries" id="ID_WOTC_CM_OBC_INFORMATION_STATBLOCK_LICHEN_LICH">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Lichen Lich</h3>
+			<p style="margin-bottom:-5px"><em>Medium undead, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 20 (natural armor)</li>
+				<li><strong>Hit Points</strong> 225 (30d8 + 90)</li>
+				<li><strong>Speed</strong> 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>11 (+0)</td><td>16 (+3)</td><td>16 (+3)</td><td>14 (+2)</td><td>20 (+5)</td><td>16 (+3)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Con +9, Int +8, Wis +11, Cha +9</li>
+				<li><strong>Skills</strong> Medicine +11, Nature +14, Perception +11, Survival +11</li>
+				<li><strong>Damage Resistances</strong> cold, necrotic</li>
+				<li><strong>Damage Immunities</strong> poison</li>
+				<li><strong>Condition Immunities</strong> charmed, exhaustion, frightened, paralyzed, poisoned, stunned</li>
+				<li><strong>Senses</strong> truesight 120 ft., passive Perception 21</li>
+				<li><strong>Languages</strong> Common, Druidic, Sylvan</li>
+				<li><strong>Challenge</strong> 18</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong><em>Legendary Resistance (3/Day). </em></strong>If the lich fails a saving throw, it can choose to succeed instead.</li>
+				<p></p>
+				<li><strong><em>Rejuvenation. </em></strong>If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body allears within 5 feet of the phylactery.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The lich makes four attacks.</li>
+				<p></p>
+				<li><strong><em>Poisonous Touch. </em></strong><em>Melee Weapon Attack:</em> +9 to hit, reach 10 ft., one target. <em>Hit:</em> 17 (5d6) poison damage, and the target must succeed on a DC 19 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a succeess.</li>
+				<p></p>
+				<li><strong><em>Wither. </em></strong><em>Ranged Spell Attack:</em> +9 to hit, range 60 ft., one target. <em>Hit:</em> 14 (4d6) necrotic damage.</li>
+				<p></p>
+				<li><strong><em>Fire Storm (7th-Level Spell; 1/Day). </em></strong>The lich fills up to ten 10-foot cubes with fire. Every cube must be within 150 feet of the lich and occupy a space the lich can see, and each cube must have at least one face adjacent to the face of another cube. Each creature in the area must make a DC 19 Dexterity saving throwm taking 38 (7d10) fire damage on a failed save, or half as much on a successful one. The fire ignites flammable objects in the area that arent being worn or carried. If the lich chooses, plant life in the area is unaffected by the spell.</li>
+				<p></p>
+				<li><strong><em>Spellcasting. </em></strong>The lich casts one of the following spells using Wisdom as the spellcasting ability (save DC 19):</li>
+				<p></p>
+				<li>At will: <em>druidcraft</em></li>
+				<li>3/day each: <em>detect magic, fog cloud, pass without trace</em></li>
+				<li>1/day each: <em>antilife shell, dispel magic, speak with plants, transport via plants</em></li>
+			</ul>
+			<h4 style="margin-top:10px">Legendary Actions</h4>
+			<ul class="unstyled">
+				<p>The lich can make 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The lich regains spent legendary actions at the start of its turn.</p>
+				<li><strong><em>Attack. </em></strong>The lich makes an attack.</li>
+				<p></p>
+				<li><strong><em>Poison Prick (Costs 2 Actions). </em></strong>The lich targets one poisoned creature it can see within 30 feet of it. The target must succed on a DC 19 Constitution saving throw or fall unconscious until the poisoned condition ends on it.</li>
+				<p></p>
+				<li><strong><em>Sap Life (Cost 2 Actions). </em></strong>The lich targets one poisoned creature it can see within 30 feet of it. The target must succed on a DC 19 Constitution saving throw or take 11 (2d10) necrotic damage. The lich regains a number of hit points equal to the amount of damage that the creature takes.</li>
+			</ul>
+		</description>
+	</element>
+
+</elements>
