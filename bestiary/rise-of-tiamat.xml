@@ -26,7 +26,7 @@
 				<li><strong>Skills</strong> Deception +3, Stealth +5</li>
 				<li><strong>Senses</strong> passive Perception 10</li>
 				<li><strong>Languages</strong> Common, Draconic</li>
-				<li><strong>Challenge</strong> 1</li>
+				<li><strong>Challenge</strong> 1 (200 XP)</li>
 			</ul>
 			<h4 style="margin-top:5px; margin-bottom:10px" />
 			<ul class="unstyled">
@@ -65,7 +65,7 @@
 				<li><strong>Damage Resistances</strong> one of the following: acid, cold, fire, lightning, or poison</li>
 				<li><strong>Senses</strong> passive Perception 11</li>
 				<li><strong>Languages</strong> Common, Draconic, Infernal</li>
-				<li><strong>Challenge</strong> 5</li>
+				<li><strong>Challenge</strong> 5 (1,800 XP)</li>
 			</ul>
 			<h4 style="margin-top:5px; margin-bottom:10px" />
 			<ul class="unstyled">
@@ -108,7 +108,7 @@
 				<li><strong>Damage Resistances</strong> one of the following: acid, cold, fire, lightning, or poison</li>
 				<li><strong>Senses</strong> passive Perception 11</li>
 				<li><strong>Languages</strong> Common, Draconic, Infernal</li>
-				<li><strong>Challenge</strong> 7</li>
+				<li><strong>Challenge</strong> 7 (2,900 XP)</li>
 			</ul>
 			<h4 style="margin-top:5px; margin-bottom:10px" />
 			<ul class="unstyled">
@@ -151,7 +151,7 @@
 				<li><strong>Damage Resistances</strong> one of the following: acid, cold, fire, lightning, or poison</li>
 				<li><strong>Senses</strong> passive Perception 10</li>
 				<li><strong>Languages</strong> Common, Draconic</li>
-				<li><strong>Challenge</strong> 2</li>
+				<li><strong>Challenge</strong> 2 (450 XP)</li>
 			</ul>
 			<h4 style="margin-top:5px; margin-bottom:10px" />
 			<ul class="unstyled">
@@ -191,7 +191,7 @@
 				<li><strong>Damage Resistances</strong> lightning</li>
 				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 12</li>
 				<li><strong>Languages</strong> understands Draconic but can’t speak it</li>
-				<li><strong>Challenge</strong> 2</li>
+				<li><strong>Challenge</strong> 2 (450 XP)</li>
 			</ul>
 			<h4 style="margin-top:5px; margin-bottom:10px" />
 			<h4 style="margin-top:10px">Actions</h4>
@@ -224,7 +224,7 @@
 				<li><strong>Damage Immunities</strong> cold</li>
 				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 12</li>
 				<li><strong>Languages</strong> Ice Toad</li>
-				<li><strong>Challenge</strong> 1</li>
+				<li><strong>Challenge</strong> 1 (200 XP)</li>
 			</ul>
 			<h4 style="margin-top:5px; margin-bottom:10px" />
 			<ul class="unstyled">
@@ -263,7 +263,7 @@
 				<li><strong>Condition Immunities</strong> exhaustion, poisoned</li>
 				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 16</li>
 				<li><strong>Languages</strong> Common, Draconic</li>
-				<li><strong>Challenge</strong> 11</li>
+				<li><strong>Challenge</strong> 11 (7,200 XP)</li>
 			</ul>
 			<h4 style="margin-top:5px; margin-bottom:10px" />
 			<ul class="unstyled">
@@ -304,7 +304,7 @@
 				<li><strong>Condition Immunities</strong> charmed, frightened, poisoned</li>
 				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 15</li>
 				<li><strong>Languages</strong> Common, Draconic, Elvish, Infernal</li>
-				<li><strong>Challenge</strong> 9</li>
+				<li><strong>Challenge</strong> 9 (5,000 XP)</li>
 			</ul>
 			<h4 style="margin-top:5px; margin-bottom:10px" />
 			<ul class="unstyled">
@@ -344,7 +344,7 @@
 				<li><strong>Skills</strong> Arcana +7, Deception +3, Insight +5, Stealth +6</li>
 				<li><strong>Senses</strong> passive Perception 12</li>
 				<li><strong>Languages</strong> Common, Draconic, Infernal, Primordial, Thayan</li>
-				<li><strong>Challenge</strong> 6</li>
+				<li><strong>Challenge</strong> 6 (2,300 XP)</li>
 			</ul>
 			<h4 style="margin-top:5px; margin-bottom:10px" />
 			<ul class="unstyled">
@@ -393,7 +393,7 @@
 				<li><strong>Condition Immunities*</strong> charmed, frightened, poisoned</li>
 				<li><strong>Senses</strong> darkvision 60 ft.,* passive Perception 11</li>
 				<li><strong>Languages</strong> Common, Draconic, Infernal</li>
-				<li><strong>Challenge</strong> 11</li>
+				<li><strong>Challenge</strong> 11 (7,200 XP)</li>
 				<li>*Severin has these features while wearing the Mask of the Dragon Queen.</li>
 			</ul>
 			<h4 style="margin-top:5px; margin-bottom:10px" />
@@ -447,7 +447,7 @@
 				<li><strong>Condition Immunities</strong> blinded, charmed, deafened, frightened, poisoned, stunned</li>
 				<li><strong>Senses</strong> darkvision 240 ft., truesight 120 ft., passive Perception 36</li>
 				<li><strong>Languages</strong> Common, Draconic, Infernal</li>
-				<li><strong>Challenge</strong> 30</li>
+				<li><strong>Challenge</strong> 30 (155,000 XP)</li>
 			</ul>
 			<h4 style="margin-top:5px; margin-bottom:10px" />
 			<ul class="unstyled">
